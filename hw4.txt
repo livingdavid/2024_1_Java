@@ -1,0 +1,15 @@
+-------------------------------
+CreditCard
+-------------------------------
+- cardNumber: String
+- expirationDate: Date
+- cardholderName: String
+- securityCode: Integer
+- creditLimit: Float
+- currentBalance: Float
+-------------------------------
++ Charge(amount: Float): void
++ MakePayment(amount: Float): void
++ CheckBalance(): Float
++ IsValid(): Boolean
+-------------------------------
